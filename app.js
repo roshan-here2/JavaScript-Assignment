@@ -459,3 +459,15 @@ function listItems() {
   }
   return names;
 }
+addItem("Book", 300);
+addItem("Pen", 50);
+addItem("Bag", 1200);
+
+console.log(cart);
+console.log(calculateTotal()); 
+console.log(applyDiscount(10)); 
+console.log(listItems()); 
+
+removeItem("Pen");
+
+console.log(cart);
